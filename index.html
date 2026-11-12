@@ -18,7 +18,9 @@ cosmos, give your soul to Satan.<br> </font>
           </div>
      </div>
     <br><br>
-    <img src="1.png" height="250"> <img src="Axe.gif" height="100"> <img src="2.png" height="250">
+     <div class="image-row">
+    <img src="1.png" height="250" class="large-img"> <img src="Axe.gif" height="100" class="small-img"> <img src="2.png" height="250" class="large-img">
+     </div>
 </body>
 <style>
   .container {
@@ -34,6 +36,23 @@ cosmos, give your soul to Satan.<br> </font>
 
   .text-lines p {
     margin: 4px 0;
+  }
+    /**/
+      .image-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .large-img {
+    width: 300px;
+    height: auto;
+  }
+
+  .small-img {
+    width: 100px;
+    height: auto;
   }
 </style>
 </html>
